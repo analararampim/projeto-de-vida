@@ -9,11 +9,5 @@ for(let i=0;i <botoes.length;i++){
         botoes[i].classList.add("ativo");
     }
 }
- 
-
-contadores[0].textContent = tempoObjetivo1;
-const contadores = document.querySelectorAll(".contador");
-const tempoObjetivo1 = new Date("2023-10-05T00:00:00");
-let tempoAtual = new Date();
-
-contadores[0].textContent = tempoObjetivo1 - tempoAtual;
+ const contadores = document.querySelectorAll(".contador");
+ contadores[0].textContent = "Contagem regressiva";
